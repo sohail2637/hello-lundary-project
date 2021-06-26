@@ -1,0 +1,150 @@
+/*
+Theme Name:     Laundry Child
+Theme URI:      https://smartdata.tonytemplates.com/laundry/
+Description:    Child theme for Laundry
+Author:         Smartdatasoft Team
+Author URI:     https://themeforest.net/user/smartdatasoft
+Template:       laundry
+Version:        1.0
+*/
+
+/* ----------------------------------------------------------------------------
+ * Child Theme Style.css styles begin here!
+ * ------------------------------------------------------------------------- */
+
+.menu>li>a {
+    padding: 19px 19px !important;
+    font-size: 14px !important;
+    color: #000 !important;
+}
+
+@media only screen and (max-width: 767.98px) {}
+
+.section {
+    padding: 50px 0;
+}
+
+.hero-carousel .item-cont .item-inner {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.hero-carousel .owl-nav button.owl-prev,
+.hero-carousel .owl-nav button.owl-next {
+    background-color: #5384bf;
+    font-size: 25px;
+}
+
+.book-now .form-group input {
+    height: 65px;
+    font-size: 20px;
+}
+
+.section-title-2 h4 {
+    font-size: 25px;
+}
+
+.navbar-brand {
+    padding: 5px 0;
+}
+
+.book-now .btn-book-now {
+    right: 2px;
+    outline-color: #92bd3e;
+}
+
+.mobile-center a i {
+    font-size: 10px;
+}
+
+.mobile-center .btn-primary {
+    background-color: #92bd3e;
+    border-color: #fff;
+    padding: 5px 15px;
+    margin-top: 5px;
+}
+
+.how-it-work .process-img:before {
+    width: 110px;
+    right: -110px;
+}
+
+.how-it-work .process-img:after {
+    width: 30px;
+    height: 30px;
+    right: -106px;
+    top: 43%;
+}
+
+.packages-section .btn {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.packages-section i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.easy-and-quick-section .btn-google {
+    margin-bottom: 40px;
+}
+
+.news-latter .form-control::placeholder {
+    background-color: #000;
+}
+
+.news-latter .fa-chevron-right {
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+.blog-section .btn-primary {
+    margin-top: 5px;
+}
+
+.blog-section .fa-chevron-right {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.refer-friend-section h4 {
+    font-weight: 600;
+}
+
+.refer-friend-section .btn-white-blue {
+    margin-top: 8px;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+}
+
+.main-footer p {
+    line-height: 25px;
+}
+
+h1 {
+    font-size: 36px !important;
+}
+
+h2 {
+    font-size: 30px !important;
+}
+
+h3 {
+    font-size: 24px !important;
+}
+
+h4 {
+    font-size: 20px !important;
+}
+
+h5 {
+    font-size: 18px !important;
+}
+
+h6 {
+    font-size: 16px !important;
+}

@@ -1,0 +1,263 @@
+@media (max-width: 1229px) and (min-width: 1024px) {
+    .how-it-work .process-img {
+        width: 190px;
+        height: 190px;
+    }
+    .how-it-work .process-img:before {
+        top: 89px;
+        right: -100px;
+    }
+    .how-it-work .process-img:after {
+        width: 30px;
+        height: 30px;
+        right: -50px;
+        top: 39.9%;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 992px) {}
+
+@media (max-width: 991px) and (min-width: 768px) {}
+
+@media (max-width: 767px) and (min-width: 685px) {}
+
+@media (max-width: 684px) and (min-width: 568px) {}
+
+@media (max-width: 567px) and (min-width: 480px) {}
+
+@media only screen and (max-width: 767.98px) {
+    .hero-carousel .item-cont {
+        background-position: 80% 0;
+        background-size: cover;
+    }
+    .hero-carousel .item-cont .item-inner .hero-text p {
+        font-size: 20px;
+        line-height: 1.4em;
+    }
+    .hero-carousel .owl-nav button.owl-prev,
+    .hero-carousel .owl-nav button.owl-next {
+        position: absolute;
+        top: calc(50% - 50px);
+        color: #fff;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 34px;
+        border-radius: 50%;
+        background-color: #ffffff9c;
+    }
+    .hero-carousel .owl-nav button.owl-prev .fa,
+    .hero-carousel .owl-nav button.owl-next .fa {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .hero-carousel .item-cont .item-inner .cta-group .btn+.btn {
+        margin-left: 0;
+    }
+    .main-nav .collapse {
+        display: none !important;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .navbar-header {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .navbar-default {
+        display: block;
+    }
+    .book-now {
+        width: 90%;
+    }
+    .book-now .form-group input {
+        height: 45px;
+        padding: 5px 15px;
+        border-radius: 5px;
+        padding-right: 104px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .book-now .btn-book-now {
+        position: absolute;
+        right: 3px;
+        height: 39px;
+        min-width: 80px;
+        text-align: center;
+        font-weight: 900;
+        line-height: 29px;
+        padding: 5px 8px;
+        font-size: 12px;
+        text-transform: uppercase;
+        top: 40%;
+        transform: translate(0, -60%);
+    }
+    .mobile-p-0 {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+    .header-top .d-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+    .header-top .d-flex.right {
+        flex-direction: column;
+    }
+    .header-top .top-contacts span {
+        margin-right: 10px;
+    }
+    .header-top .top-contacts span:last-child {
+        margin-right: 0px;
+    }
+    .book-now {
+        max-width: 300px;
+    }
+    .refer-friend-section .btn-white-blue {
+        white-space: normal;
+    }
+    .mobile-center {
+        text-align: center;
+    }
+    .process-img:before,
+    .process-img:after {
+        display: none;
+    }
+    .packages-section:before {
+        background-size: 80px 80px;
+        height: 80px;
+        width: 80px;
+        top: -2%;
+    }
+    /*.video-player-item {*/
+    /*min-height: 210px;*/
+    /*}*/
+    .footer-logo,
+    .copy-right,
+    .footer-social-links {
+        text-align: center !important;
+    }
+    /*// Navigation Bar //*/
+    .main-nav .navbar-nav.menu li a {
+        line-height: 1px;
+        padding: 17px 17px !important;
+    }
+    .navbar-brand img {
+        max-width: 90px;
+    }
+    /*// Hero Section //*/
+    .hero-section .hero-carousel .item-cont {
+        min-height: 400px;
+    }
+    .hero-carousel .item-cont .item-inner .hero-text {
+        margin: 25px 0px;
+    }
+    .hero-section .book-now .form-group .btn-book-now {
+        padding-right: 0;
+        font-size: 13px;
+        height: 40px !important;
+        padding: 5px 8px;
+        top: 41.26%;
+        left: 67%;
+    }
+    .form-control::placeholder {
+        font-size: 17px;
+    }
+    .hero-carousel .owl-nav button.owl-prev,
+    .hero-carousel .owl-nav button.owl-next {
+        display: none;
+    }
+    /*// About Us Section //	*/
+    .about-us-section .section-title-2 h4 {
+        font-size: 23px;
+        text-align: justify;
+    }
+    .about-us-section p {
+        text-align: justify;
+    }
+    .process-box {
+        margin-bottom: 20px;
+    }
+    /*// Servises Section //*/
+    .service-item p {
+        text-align: justify;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+    /*// PAckage Section //*/
+    .packages-section .section-title h4 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .package-item {
+        margin-bottom: 30px;
+    }
+    .packages-section .btn {
+        display: inline;
+        margin-right: 10px;
+    }
+    /*// Easy Quick Sectionc //*/
+    .easy-and-quick-section h5 {
+        color: #094fa3;
+        font-size: 20px;
+    }
+    .easy-and-quick-section .btn-google {
+        margin-bottom: 20px;
+        font-size: 18px;
+        width: 132px;
+        height: 45px;
+    }
+    .news-latter .get-discount {
+        font-size: 12px;
+    }
+    .news-latter .text-center {
+        margin-top: 20px;
+    }
+    /*// Blog Section //*/
+    .blog-item {
+        margin-bottom: 15px;
+    }
+    .blog-item .card-title {
+        text-align: justify;
+    }
+    .blog-item .card-text {
+        text-align: justify;
+    }
+    .refer-friend-section p {
+        padding-top: 10px;
+    }
+    /*// Refer Friend Section //*/
+    .refer-friend-section .btn-white-blue {
+        padding: 13px 10px;
+        font-size: 15px;
+    }
+    /*// Footer Section //*/
+    .main-footer .footer-menu {
+        text-align: center;
+    }
+    .footer-logo img {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .copy-right p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .how-it-work .process-img:before {
+        display: none;
+    }
+    .how-it-work .process-img:after {
+        display: none;
+    }
+    aside#secondary {
+        display: none;
+    }
+}
